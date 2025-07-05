@@ -48,4 +48,87 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 
 
 
+# 📚 PLP MongoDB Assignment – Week 1
 
+## 👨‍💻 Project: `plp_bookstore`
+
+This project is part of the Power Learn Project MERN Stack course. It showcases practical use of MongoDB for backend development by creating a bookstore database. The assignment covers:
+
+- MongoDB setup
+- Creating a database and collection
+- Performing CRUD operations
+- Writing advanced queries
+- Using aggregation pipelines
+- Creating indexes and analyzing query performance
+
+---
+
+## 🧪 Technologies Used
+
+- MongoDB Community Edition
+- MongoDB Shell (`mongosh`)
+- MongoDB Compass
+
+---
+
+## 📁 Project Structure
+
+| File              | Description                                                 |
+|-------------------|-------------------------------------------------------------|
+| `insert_books.js` | Inserts 10 book documents into the `books` collection        |
+| `queries.js`      | Contains all MongoDB queries for Tasks 2–5                   |
+| `screenshot.png`  | Screenshot of MongoDB Compass showing inserted documents     |
+| `README.md`       | Instructions for running and testing the project             |
+
+---
+
+## 🛠️ How to Run the Project
+
+### ✅ Step 1: Start MongoDB
+
+Make sure MongoDB is installed and running. Then open a terminal:
+
+```bash
+mongosh
+
+
+
+Paste the content of insert_books.js into the shell to insert book documents.
+
+✅ Step 2: Run Queries
+Copy and paste the queries from queries.js into the same shell. The queries include:
+
+Task 2: CRUD operations (find, update, delete)
+
+Task 3: Advanced queries (filters, projections, sorting, pagination)
+
+Task 4: Aggregation pipelines (grouping and analysis)
+
+Task 5: Index creation and performance analysis using .explain()
+
+🖼️ Screenshot
+screenshot.png shows:
+
+The plp_bookstore database in MongoDB Compass
+
+The books collection
+
+Several documents with fields like title, author, and price
+
+✅ Submission Checklist
+ Inserted 10 books using insert_books.js
+
+ All required queries written in queries.js
+
+ Screenshot of MongoDB Compass added as screenshot.png
+
+ README with instructions included
+
+ Everything committed and pushed to GitHub
+
+💡 Notes
+You can use mongosh to run and test queries
+
+Use MongoDB Compass to view data and take a screenshot
+
+Ensure your local MongoDB server is running before inserting or querying
